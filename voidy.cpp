@@ -1,10 +1,3 @@
-#include <iostream>
-#include <vector>
-#include <algorithm>
-#include <ctime>
-#include <cstdlib>
-using namespace std;
-
 const int SIZE=4;
 
 void displayBoard(const vector<vector<int>>&board){
