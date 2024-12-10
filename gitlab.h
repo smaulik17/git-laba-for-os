@@ -1,3 +1,10 @@
+#include <iostream>
+#include <vector>
+#include <algorithm>
+#include <ctime>
+#include <cstdlib>
+using namespace std;
+
 void displayBoard(const vector<vector<int>>&board){
     for(const auto& row:board) {
         for(const auto& tile:row){
