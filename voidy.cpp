@@ -1,12 +1,3 @@
-#include <iostream>
-#include <vector>
-#include <algorithm>
-#include <ctime>
-#include <cstdlib>
-using namespace std;
-
-const int SIZE=4;
-
 void shuffleBoard(vector<vector<int>>& board) {
     vector<int> tiles;
     for (int i=0;i<SIZE*SIZE-1;++i){
