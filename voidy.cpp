@@ -1,13 +1,3 @@
-#include <iostream>
-#include <vector>
-#include <algorithm>
-#include <ctime>
-#include <cstdlib>
-using namespace std;
-
-const int SIZE=4;
-
-
 void moveTile(vector<vector<int>>& board,int tile){
     for(int i=0;i<SIZE;++i) {
         for(int j=0;j<SIZE;++j){
