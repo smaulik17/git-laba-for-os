@@ -1,14 +1,3 @@
-#include <iostream>
-#include <vector>
-#include <algorithm>
-#include <ctime>
-#include <cstdlib>
-using namespace std;
-
-const int SIZE=4;
-
-
-
 bool isSolved(const vector<vector<int>>&board){
     int count=1;
     for (int i=0;i<SIZE;++i) {
