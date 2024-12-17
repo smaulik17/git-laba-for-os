@@ -3,7 +3,6 @@
 #include <algorithm>
 #include <ctime>
 #include <cstdlib>
-#include "gitlab.h"
 using namespace std;
 
 const int SIZE=4;
