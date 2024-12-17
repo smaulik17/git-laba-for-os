@@ -5,6 +5,8 @@
 #include <cstdlib>
 using namespace std;
 
+const int SIZE=4;
+
 void displayBoard(const vector<vector<int>>&board){
     for(const auto& row:board) {
         for(const auto& tile:row){
